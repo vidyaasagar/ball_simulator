@@ -1,0 +1,13 @@
+* { padding: 0; margin: 0; }
+
+canvas {
+     background: #eee; 
+     display: block; 
+     
+     margin: 180px auto;
+ }
+.speed{
+    position:absolute;
+    bottom:10px;
+    left:150px;
+}
