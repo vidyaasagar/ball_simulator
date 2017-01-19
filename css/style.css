@@ -6,8 +6,13 @@ canvas {
      
      margin: 180px auto;
  }
-.speed{
+.slider{
     position:absolute;
     bottom:10px;
-    left:150px;
+    left:350px;
+}
+.counter{
+    position:absolute;
+    bottom:10px;
+    left:450px;
 }
