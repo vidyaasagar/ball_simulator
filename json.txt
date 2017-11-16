@@ -1,0 +1,5 @@
+http://embed.plnkr.co/hNs7ps/
+http://www.technofattie.com/2014/07/27/easy-loading-indicator-when-switching-views-in-angular.html
+http://jsfiddle.net/mailmrmanoj/wcmh6bwd/ ---spinkit
+http://codetunnel.io/how-to-do-loading-spinners-the-angular-way/ ---angular way
+http://jsfiddle.net/mmendelson/h4j3wgps/

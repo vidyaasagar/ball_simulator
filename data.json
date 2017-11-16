@@ -1,0 +1,267 @@
+{
+  "appointments": [
+    {
+      "id": 51,
+      "business_id": 28,
+      "name": "sadfads",
+      "description": "wq",
+      "picture": "",
+      "duration_hours": 1,
+      "duration_minutes": 0,
+      "price_private": 12,
+      "price_partial": 0,
+      "attendee_count": 0,
+      "cancellation_notice": 0,
+      "reschedule_notice": 0,
+      "minimum_booking_notice": 30,
+      "maximum_booking_notice": 1440,
+      "location_type": "not-applicable",
+      "location_data": "NULL",
+      " is_disabled": 1,
+      "is_published": 0,
+      "is_expired": 0,
+      "is_deleted": 1,
+      "created": "2017-06-05 14:14:37",
+      "modified": "2017-06-05 14:14:55",
+    }
+  ],
+  "events": [
+    {
+id: 73
+                 user_id: 103
+             business_id: 28
+                    name: Untitled Event
+             description: <p><br></p>
+               startdate: 2017-08-07
+                 enddate: 2017-08-29
+               starttime: 07: 30: 00
+                 endtime: 09: 00: 00
+                location: Standiford Field, Terminal Drive, Louisville, KY, United States
+             locationlat: 38.175662
+             locationlng: -85.73692310000001
+              isDisabled: 0
+             isPublished: 1
+            isServiceTax: 0
+                   isVat: 0
+         isGroupDiscount: 0
+isBookingEnabledOnGround: 0
+  isBookingEnabledOnline: 0
+               timestamp: 2017-08-07 19: 54: 12
+               isDeleted: 0
+       reminderEmailSent: 0
+               isExpired: 0
+    }
+  ],
+  "facilities": [
+    {id: 210
+                    name: dsafadsf
+             description: NULL
+                opentime: 00: 00: 00
+               closetime: 00: 45: 00
+                 user_id: 103
+             business_id: 28
+                location: NULL
+             locationlat: NULL
+             locationlng: NULL
+              maxentries: NULL
+              isDisabled: 0
+             isPublished: 1
+            isServiceTax: 0
+                   isVat: 0
+         isGroupDiscount: 1
+isBookingEnabledOnGround: 1
+  isBookingEnabledOnline: 1
+               timestamp: 2017-07-26 01: 12: 56
+               isDeleted: 0
+    }
+  ],
+classpacks: {
+id: 144
+             user_id: 103
+         business_id: 28
+      validity_count: 0
+validity_duration_id: 0
+             credits: NULL
+   isUniversalCredit: 0
+                name: Yoga classpack
+         description: yoga
+            validity: NULL
+               price: 0.00
+          isDisabled: 0
+           timestamp: 2017-08-29 20: 00: 05
+           isDeleted: 0
+         isShareable: 1
+   autoBookClasspack: 1
+         isPublished: 1
+     fixed_term_type: 1
+           startdate: 2017-08-30
+             enddate: 2017-09-05
+          book_count: 25
+            modified: 2017-08-29 20: 00: 05
+             created: 2017-08-29 18: 27: 14
+  }
+memberships: {
+ id: 174
+         business_id: 77
+                name: Premium Membership
+         description: <p><br></p>
+          isdisabled: 0
+         freezeprice: 0
+  isPayableForFreeze: 0
+            addon_id: 0
+           timestamp: 2017-06-27 19: 42: 28
+           isDeleted: 0
+         isPublished: 1
+joining_fee_addon_id: NULL
+        joining_fees: 0.00
+  },
+
+trainerprofiles: {
+id: 1
+     title: Mr
+       bio: Yo nigga
+     photo: mithun.jpg
+trainer_id: 5
+ timestamp: 2015-10-15 23: 30: 11
+  },
+schedules: {
+id: 1723
+customer_id: 646
+       type: class
+  object_id: 662
+       date: 2017-08-31 09: 00: 00
+  timestamp: 2017-08-29 20: 03: 54
+isCheckedin: 0
+checkinTime: NULL
+  },
+subscriptions: {
+id: 657
+                   user_id: 829
+               business_id: 128
+    stripe_subscription_id: sub_BAWtXxikjFASFp
+   application_fee_percent: NULL
+      cancel_at_period_end: 0
+               canceled_at: 0
+        current_period_end: 1503410640
+      current_period_start: 1502114640
+        stripe_customer_id: cus_BAWtQnijVIjKJa
+                    status: trialing
+               tax_percent: NULL
+                 trial_end: 1503410640
+               trial_start: 1502114640
+                   plan_id: trial_plan
+stripe_subscription_object: NULL
+            trial_extended: 0
+                   created: 2017-08-07 19: 34: 07
+                  modified: 2017-08-07 19: 34: 07
+  },
+trainers: {
+id: 168
+    user_id: 839
+business_id: 28
+  timestamp: 2017-08-29 18: 47: 21
+  }
+classschedules: {
+    [id: 321162
+                 starttime: 12: 00: 00
+                   endtime: 13: 00: 00
+                      date: 2017-09-01
+                trainer_id: 168
+                  class_id: 306
+                  strength: 25
+           available_spots: 25
+             startdatetime: 2017-09-01 12: 00: 00
+      cancelClassMessageId: NULL
+               isCancelled: 0
+                 isDelayed: 0
+             modifyingUser: NULL
+           cancelEmailSent: 0
+          isDelayEmailSent: 0
+                 delayTime: NULL
+       oneHourReminderSent: 0
+twentyFourHourReminderSent: 0
+            classtimestamp: 1504281600
+               enddatetime: NULL
+           notifyattendees: 0
+        messagetoattendees: NULL
+     noshow_charge_checked: 0
+    ],
+    [ id: 321164
+                 starttime: 12: 00: 00
+                   endtime: 13: 00: 00
+                      date: 2017-09-05
+                trainer_id: 168
+                  class_id: 306
+                  strength: 25
+           available_spots: 25
+             startdatetime: 2017-09-05 12: 00: 00
+      cancelClassMessageId: NULL
+               isCancelled: 0
+                 isDelayed: 0
+             modifyingUser: NULL
+           cancelEmailSent: 0
+          isDelayEmailSent: 0
+                 delayTime: NULL
+       oneHourReminderSent: 0
+twentyFourHourReminderSent: 0
+            classtimestamp: 1504627200
+               enddatetime: NULL
+           notifyattendees: 0
+        messagetoattendees: NULL
+     noshow_charge_checked: 0
+    ]
+  },
+
+businesses: {
+ id: 128
+                   subdomain: sduyihndsu
+                        name: sduyihndsu
+                 description: NULL
+                  coverimage: NULL
+             backgroundimage: 
+                        logo: 
+                    facebook: 
+                     twitter: 
+                      google: 
+                    location: 
+                 locationlat: 0
+                 locationlng: 0
+                    place_id: ChIJkbeSa_BfYzARphNChaFPjNc
+                    bloglink: 
+                     user_id: 829
+                   isUpdated: 0
+             isNotifications: 1
+           isWebsiteDeployed: 1
+                   timestamp: 2017-08-07 19: 33: 51
+                     baseapi: business
+                      region: global
+                  payee_name: NULL
+              account_number: NULL
+                   ifsc_code: NULL
+      business_location_name: NULL
+            business_address: NULL
+       business_phone_number: 1231231231
+                    opentime: NULL
+                   closetime: NULL
+    isSetupBusinessCompleted: 0
+     isSetupServiceCompleted: 0
+                timeformatid: 4
+                dateformatid: 5
+        howdidyouhearaboutus: NULL
+         tellusmorecompleted: 0
+     isSetupWebsiteCompleted: 0
+                   locations: NULL
+            paymentGatewayId: 1
+     onlinePaymentsActivated: 0
+          roundOffBillAmount: 0
+         current_bill_number: 0
+     bill_number_starts_from: 0
+    bank_information_textual: NULL
+            isParentBusiness: 0
+               business_type: professional
+current_onboarding_step_name: step-complete
+           business_category: fitness_studio
+             wordpress_token: NULL
+                   instagram: NULL
+  }
+}
